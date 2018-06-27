@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+body {
+	background-image: url(Background.jpg);
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+header {
+	margin-bottom: 10%
+}
+
+html {
+	height: 100%;
+	max-width: 100%;
+	
+}
+
+.button{
+	text-align: center;
+	margin-top: 5%;
+}
+
+.button  a:link, a:visited, a:active{
+	color: white;
+	text-decoration: none;
+	appearance: button;
+	border:  solid #cccccc;
+	border-width: 5%;
+	padding: .25%;
+	font-weight:bolder;
+	*/background-color:#cccccc;*/
+	
+}
+
+.button a:hover {
+	color: #CCCCCC;
+	text-decoration: none;
+	appearance: button;
+	border:  solid black;
+	border-width: 5%;
+	padding: .25%;
+	background-color: black;
+	background-clip: content-box;
+}
+
+.links {
+	position: relative;
+	text-align: right;
+	width:100%;
+	max-width: 100%;
+	
+}
+
+.links a:link, a:visited {
+	text-decoration: underline;
+	color: white;
+	padding: 1%;
+}
+
+.links a:hover {
+	color: #CCCCCC;
+} 
+
+.name {
+	font-size: 500%;
+	text-align: center;
+	vertical-align: central;
+	width:100%;
+	max-width: 100%;
+	font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	color: white;
+	margin-top: 20%;
+}
+
+#position {
+	color:white;
+	font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	text-align:center;
+	font-size:300%;
+	margin-top:2%;
+	
+}
+
+
+
